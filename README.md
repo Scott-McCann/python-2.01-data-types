@@ -92,3 +92,11 @@ In [6]: states = {'Tx': 'Texas', 'Ar': 'Arizona', 'Fl': 'Florida', 'Ny': 'New Yo
 10. the Iso standard is to Display dates as "YYYY-MM-DD, YYYYMMDD
 YYYY-MM" I used (april,18,2016) which is probably really bad.
 ```
+
+------------------------------------------------------------------------------------------------------------------------
+
+```
+1. Library= {'fiction':{'Stephen King': ["Tommyknockers", "IT", "Carrie", "The Gunslinger"],'Ray Bradbury':["Farenheit 141","Cellar of Death"]},'nonfiction':{"Stephen Hawking":["A Brief Histroy of Time", "On the Event Horizons of Black Holes"],"Richard Dawkins":["The God Delusion", "This is a book"]}
+```
+```
+2. 
