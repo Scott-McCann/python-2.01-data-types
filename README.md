@@ -14,3 +14,11 @@
   9. Paste the link to your repository in your assignment in online.theironyard.com
 
 ## Answers go below
+ ``` taxRate = .0825```
+ ``` taxRate * 34.50 ```
+ ```totalamount=(30+24+15)*taxRate``` 
+ ``` name = "scott"```
+ ```greeting = "dia duit, conas ata tu "```
+ ```In [16]: greeting + name
+Out[16]: 'Dia duit, conas ata tu,  scott'```
+```In [26]: greeting+name+pleasepay+str(totalamount)```
