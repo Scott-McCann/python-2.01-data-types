@@ -99,4 +99,61 @@ YYYY-MM" I used (april,18,2016) which is probably really bad.
 1. Library= {'fiction':{'Stephen King': ["Tommyknockers", "IT", "Carrie", "The Gunslinger"],'Ray Bradbury':["Farenheit 141","Cellar of Death"]},'nonfiction':{"Stephen Hawking":["A Brief Histroy of Time", "On the Event Horizons of Black Holes"],"Richard Dawkins":["The God Delusion", "This is a book"]}
 ```
 ```
-2. 
+2. In [1]: coords = [[2,4],[3,4],[5,6],[3,5]]
+```
+```
+3. Profile = {'info':{"Name": 'Scott Mccann',"b-day":'08031993'},"friends":{'bffs': ['joe','zack','james'],'new':['liza','jane','rose']}}
+```
+```
+4. In [18]: board = [[0,1,2,3,4,5,6,7,8],[1,0,0,0,0,0,0,0,0],[2,0,0,0,0,0,0,0,0],[3,0,0,0,0,0,0,0,0],[4,0,0,0,0,0,0,0,0],[5,0,0,0,0,0,0,0,0],[6,0,0,0,0,0,0,0,0],[7,0,0,0,0,0,0,0,0],[8,0,0,0,0,0,0,0,0]]
+
+In [19]: board
+Out[19]:
+[[0, 1, 2, 3, 4, 5, 6, 7, 8],
+ [1, 0, 0, 0, 0, 0, 0, 0, 0],
+ [2, 0, 0, 0, 0, 0, 0, 0, 0],
+ [3, 0, 0, 0, 0, 0, 0, 0, 0],
+ [4, 0, 0, 0, 0, 0, 0, 0, 0],
+ [5, 0, 0, 0, 0, 0, 0, 0, 0],
+ [6, 0, 0, 0, 0, 0, 0, 0, 0],
+ [7, 0, 0, 0, 0, 0, 0, 0, 0],
+ [8, 0, 0, 0, 0, 0, 0, 0, 0]]
+```
+```
+5. In [21]: prison =  {'cellBlock':{'a':{1101:['#6444','#6523'],1102:['#6723','#6734']},'b':{2103:['#6984','#8523'],2104:['#5723','#7734']}}
+   ....: }
+
+In [22]: prison
+Out[22]:
+{'cellBlock': {'a': {1101: ['#6444', '#6523'], 1102: ['#6723', '#6734']},
+  'b': {2103: ['#6984', '#8523'], 2104: ['#5723', '#7734']}}}
+```
+```
+6 Library= {'fiction':{'Stephen King': ["Tommyknockers", "IT", "Carrie", "The Gunslinger"],'Ray Bradbury':["Farenheit 141","Cellar of Death"]},'nonfiction':{"Stephen Hawking":["A Brief Histroy of Time", "On the Event Horizons of Black Holes"],"Richard Dawkins":["The God Delusion", "This is a book"]}
+}
+
+In [49]: Library['fiction']['Stephen King'][0]
+Out[49]: 'Tommyknockers'
+```
+```
+7. In [62]: coords
+Out[62]: [[2, 4], [3, 4], [5, 6], [3, 5]]
+
+In [63]: if [2,4] in coords: print('hello')
+hello
+```
+```
+8. I would need to wrap the entire dictinary in another dictionary that gives each person a unique ID to support multiple people.
+Profile = {"id-01":{'info':{"Name": 'Scott Mccann',"b-day":'08031993'},"friends":{'bffs': ['joe','zack','james'],'new':['liza','jane','rose']}}, "id-02"{'info':{"Name": 'Ryan Mier',"b-day":'08031993'},"friends":{'bffs': ['joe','zack','james'],'new':['liza','jane','rose']}}}
+```
+```
+9. nope :P (took the tedious route just to be safe)
+```
+```
+10.In [79]: del prison['cellBlock']['a'][1101][0]
+
+In [80]: prison
+Out[80]:
+{'cellBlock': {'a': {1101: ['#6523'], 1102: ['#6723', '#6734']},
+  'b': {2103: ['#6984', '#8523'], 2104: ['#5723', '#7734']}}}
+```
